@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# Test and coverage
+.coverage
+htmlcov/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.log
+*.pid
+*.db
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.swp
+*.bak
+*.tmp
+src/__pycache__*
+tests/__pycache__*
